@@ -11,86 +11,56 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Your satisfaction is my satisfaction !</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>My focus is to make projects as user friendly as possible.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Websites created by me are easy to use and easy to look at.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Visual clarity and transparency is my main goal.</p>
             </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
+           
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Responsive Web Design is the key !</h3>
           </div>
           <ul className="service__list">
           <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>20% of users only use mobile devices to surf the internet.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>My websites looks good on desktop and mobile devices.</p>
             </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
+
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Content management really helps !</h3>
           </div>
           <ul className="service__list">
             <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Do you want a blog that you manage yourself?</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>I will make it possible for you to add articles and photos yourself.</p>
             </li>
             <li>
               <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BsCheck2 className="service__list-icon"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>You don't need any technical knowledge to do this!</p>
             </li>
           </ul>
         </article>

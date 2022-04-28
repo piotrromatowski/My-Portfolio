@@ -16,7 +16,7 @@ const About = () => {
         <img src={Me} className="about__me-image" alt="About" />
       </div>
       <div className="about__content">
-        <div className="about__cards">
+        {/* <div className="about__cards">
           <article className='about__card'>
               <FaAward className='about__icon'/>
             <h5>Experience</h5>
@@ -32,9 +32,9 @@ const About = () => {
             <h5>Projects</h5>
             <small>80+ Completed</small>
           </article>
-        </div>
+        </div> */}
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse officia ullam, magni laudantium adipisci ipsa necessitatibus ratione velit nam inventore iure autem voluptatibus asperiores tenetur provident blanditiis? Eaque, consequuntur.
+        I started working with code as a hobby in early 2020, and quickly found that programming gives me great satisfaction. I am still learning new technologies and frameworks and want to develop further in the direction of Web Development, in the future also on the Back-End side. 
         </p>
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
       </div>

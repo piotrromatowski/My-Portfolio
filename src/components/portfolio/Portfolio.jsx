@@ -1,55 +1,55 @@
 import React from 'react'
 import "./portfolio.css"
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/Higienistka.webp'
+import IMG2 from '../../assets/MrDentist.webp'
+import IMG3 from '../../assets/CarRental.webp'
+import IMG4 from '../../assets/Weather.webp'
+import IMG5 from '../../assets/Anime.webp'
+import IMG6 from '../../assets/Food.webp'
 
 
 const data = [
   {
     id:1,
     image: IMG1,
-    title: "Portfolio item title",
-    github:"https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
+    title: "Dental hygienist website | Gatsby | Strapi",
+    github:"https://github.com/piotrromatowski/higienistka",
+    live: "https://higienistkamagdalena.pl/",
   },
   {
     id:2,
     image: IMG2,
-    title: "Portfolio item title",
-    github:"https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
+    title: "Dental clinic website | React",
+    github:"https://github.com/piotrromatowski/Dental-Clinic-Website",
+    live: "https://mrdentist.netlify.app/",
   },
   {
     id:3,
     image: IMG3,
-    title: "Portfolio item title",
-    github:"https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
+    title: "Car rental website | React",
+    github:"https://github.com/piotrromatowski/Car-Rental-App-React",
+    live: "https://luxury-car-rental.netlify.app/",
   },
   {
     id:4,
     image: IMG4,
-    title: "Portfolio item title",
-    github:"https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
+    title: "Website showing actual weather | React",
+    github:"https://github.com/piotrromatowski/Weather-App-React",
+    live: "https://warm-rolypoly-d3064e.netlify.app/",
   },
   {
     id:5,
     image: IMG5,
-    title: "Portfolio item title",
-    github:"https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
+    title: "Simply website with anime | React",
+    github:"https://github.com/piotrromatowski/anime-api-app",
+    live: "https://app.netlify.com/sites/rainbow-malabi-837299/overview",
   },
   {
     id:6,
     image: IMG6,
-    title: "Portfolio item title",
-    github:"https://github.com",
-    demo: "https://dribbble.com/Alien_pixels",
+    title: "Simply website with recipes | React",
+    github:"https://github.com/piotrromatowski/Food-App-React",
+    live: "https://inspiring-cat-64105d.netlify.app/",
   },
 ]
 
@@ -62,7 +62,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
        {
-         data.map(({id, image, title, github, demo})=>{
+         data.map(({id, image, title, github, live})=>{
            return(
             <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
@@ -71,7 +71,7 @@ const Portfolio = () => {
             <h3>{title}</h3>
               <div className="portfolio__item-cta">
               <a href={github} className="btn"  target='_blank' rel='noreferrer'>Github</a>
-              <a href={demo} className="btn btn-primary" target='_blank' rel='noreferrer'>Live Demo</a>
+              <a href={live} className="btn btn-primary" target='_blank' rel='noreferrer'>Live</a>
               </div>
           </article>
            )

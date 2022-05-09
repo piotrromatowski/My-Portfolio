@@ -8,6 +8,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    /* overflow-x: hidden; */
 }
 
 :root{
@@ -95,6 +96,7 @@
 
 html{
     scroll-behavior: smooth;
+  
 }
 
 ::-webkit-scrollbar{
@@ -106,6 +108,7 @@ body{
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture2.png);
+   
     
 }
 
@@ -130,6 +133,7 @@ h1{
 section{
     margin-top: 8rem;
     /* height: 100vh; */
+   
 }
 
 section>h2,

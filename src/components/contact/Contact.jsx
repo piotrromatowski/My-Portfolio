@@ -23,35 +23,35 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5 h2 data-aos="zoom-in">Get In Touch</h5>
+      <h2 h2 data-aos="zoom-in" data-aos-delay="300">Contact Me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <article className="contact__option" data-aos="zoom-in" data-aos-delay="500">
             <MdOutlineEmail className="contact__option-icon"/>
             <h4>Email</h4>
             <h5>deadcodepl@gmail.com</h5>
             <a href="mailto:deadcodepl@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
-          <article className="contact__option">
+          <article className="contact__option" data-aos="zoom-in" data-aos-delay="600">
             <RiMessengerLine className="contact__option-icon"/>
             <h4>Messenger</h4>
             <h5>DeadCodePL</h5>
             <a href="https://m.me/piotr.romatowski" target="_blank" rel="noreferrer">Send a message</a>
           </article>
-          <article className="contact__option">
+          <article className="contact__option" data-aos="zoom-in" data-aos-delay="700">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>Whatsapp</h4>
             <h5>+48791361461</h5>
             <a href="https://api.whatsapp.com/send?phone=+48791361461" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} data-aos="fade-left" data-aos-delay="900">
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type="email" name='email' placeholder='Your Email' required/>
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type='submit' className='btn btn-primary' data-aos="fade-up" data-aos-delay="1200">Send Message</button>
         </form>
       </div>
     </section>

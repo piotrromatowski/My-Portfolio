@@ -42,7 +42,7 @@ const data = [
     image: IMG5,
     title: "Simply website with anime | React",
     github:"https://github.com/piotrromatowski/anime-api-app",
-    live: "https://app.netlify.com/sites/rainbow-malabi-837299/overview",
+    live: "https://rainbow-malabi-837299.netlify.app/",
   },
   {
     id:6,
@@ -58,9 +58,9 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2 data-aos="zoom-in" data-aos-delay="300">Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container" data-aos="fade-up" data-aos-duration="500">
        {
          data.map(({id, image, title, github, live})=>{
            return(
@@ -70,8 +70,8 @@ const Portfolio = () => {
             </div>
             <h3>{title}</h3>
               <div className="portfolio__item-cta">
-              <a href={github} className="btn"  target='_blank' rel='noreferrer'>Github</a>
-              <a href={live} className="btn btn-primary" target='_blank' rel='noreferrer'>Live</a>
+              <a href={github} className="btn"  target='_blank' rel='noreferrer' data-aos="fade-left"  data-aos-delay="800" data-aos-duration="700">Github</a>
+              <a href={live} className="btn btn-primary" target='_blank' rel='noreferrer' data-aos="fade-left"  data-aos-delay="1000" data-aos-duration="700">Live</a>
               </div>
           </article>
            )

@@ -3,11 +3,14 @@ import "./footer.css"
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
+import DCLogo from '../../assets/DClogo.png'
+import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
 
 const Footer = () => {
   return (
    <footer>
-     <a href="#" className="footer__logo">DEADCODE</a>
+     <a href="#" className="footer__logo" data-aos="zoom-in" data-aos-delay="300"><img src={DCLogo} alt='DeadCode Logo'/></a>
 
      <ul className="permalinks">
        <li><a href="#">Home</a></li>
@@ -20,8 +23,8 @@ const Footer = () => {
      </ul>
 
      <div className="footer__socials">
-       <a href="https://facebook.com"><FaFacebookF/></a>
-       <a href="https://instagram.com"><FiInstagram/></a>
+       <a href='https://www.linkedin.com/in/piotr-romatowski/' target="_blank" rel='noreferrer'><BsLinkedin/></a>
+       <a href='https://github.com/piotrromatowski' target="_blank" rel='noreferrer'><FaGithub/></a>
        {/* <a href="https://twitter.com"><IoLogoTwitter/></a> */}
      </div>
 

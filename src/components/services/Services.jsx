@@ -4,7 +4,7 @@ import {BsCheck2} from "react-icons/bs"
 
 const Services = () => {
   return (
-    <section id='services'>
+    <section id='services' title='DeadCode | Services'>
       <h5 data-aos="zoom-in">What I Offer</h5>
       <h2 data-aos="zoom-in" data-aos-delay="300">Services</h2>
 

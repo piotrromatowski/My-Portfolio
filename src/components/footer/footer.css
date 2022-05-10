@@ -64,7 +64,7 @@ footer a{
    /*=================== MEDIA QUERIES (SMALL DEVICES)===============*/
    @media screen and (max-width: 600px){
     .footer__logo img{
-        height: 3rem;
+        height: 3.5rem;
     }
       .permalinks{
           flex-direction: column;

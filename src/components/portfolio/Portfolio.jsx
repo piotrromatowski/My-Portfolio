@@ -40,14 +40,14 @@ const data = [
   {
     id:5,
     image: IMG5,
-    title: "Simply website with anime | React",
+    title: "Simple website with anime | React",
     github:"https://github.com/piotrromatowski/anime-api-app",
     live: "https://rainbow-malabi-837299.netlify.app/",
   },
   {
     id:6,
     image: IMG6,
-    title: "Simply website with recipes | React",
+    title: "Simple website with recipes | React",
     github:"https://github.com/piotrromatowski/Food-App-React",
     live: "https://inspiring-cat-64105d.netlify.app/",
   },
@@ -56,7 +56,7 @@ const data = [
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' title='DeadCode | Portfolio'>
       <h5>My Recent Work</h5>
       <h2 data-aos="zoom-in" data-aos-delay="300">Portfolio</h2>
 

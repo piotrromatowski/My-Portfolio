@@ -14,7 +14,7 @@ const About = () => {
       </div>
       <div className="about__content" data-aos="fade-left" data-aos-delay="1200">
         <p>
-        Hi, I'm Peter AKA DeadCode. I started my adventure with code as a hobby in early 2020 and quickly discovered that programming gives me great satisfaction. 
+        Hi, I'm Peter AKA DeadCode, I'm a Front End Developer based in Warsaw. I started my adventure with code as a hobby in early 2020 and quickly discovered that programming gives me great satisfaction. 
         I'm still learning new technologies and frameworks, I want to further develop and expand my knowledge and skills as a Front-End Developer, and in the future learn Back-End as well. 
         </p>
         <a href='#contact' className='btn btn-primary' data-aos="fade-up" data-aos-delay="1500">Let's Talk</a>

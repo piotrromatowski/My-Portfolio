@@ -11,7 +11,7 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Your satisfaction is my satisfaction !</h3>
+            <h3>Your satisfaction is my satisfaction!</h3>
           </div>
           <ul className="service__list">
             <li data-aos="fade-up" data-aos-delay="500">
@@ -31,7 +31,7 @@ const Services = () => {
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Responsive Web Design is the key !</h3>
+            <h3>Responsive Web Design is the key!</h3>
           </div>
           <ul className="service__list" data-aos="fade-up">
           <li data-aos="fade-up" data-aos-delay="500">
@@ -47,7 +47,7 @@ const Services = () => {
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Content management really helps !</h3>
+            <h3>Content management really helps!</h3>
           </div>
           <ul className="service__list" data-aos="fade-up">
             <li data-aos="fade-up" data-aos-delay="500">
